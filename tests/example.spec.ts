@@ -6,6 +6,7 @@ test('has title', async ({ page }) => {
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/);
   console.log("Title verified");
+  console.log("This is new change for git commit");
 });
 
 test('get started link', async ({ page }) => {
