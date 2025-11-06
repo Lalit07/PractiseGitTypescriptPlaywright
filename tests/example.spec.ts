@@ -11,6 +11,7 @@ test('has title', async ({ page }) => {
   console.log("This is 3rd change for git commit");
   console.log("This is 4th change for git commit");
   console.log("This is new branch and commit test");
+  console.log("This is 2nd commit in new branch");
 });
 
 test('get started link', async ({ page }) => {

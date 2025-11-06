@@ -6,6 +6,7 @@ test("kick start with play wright", ()=>{
 
 test("My 2nd test script",()=>{
     console.log("My 2nd test");
+    console.log("This is 2nd commit in new branch");
 })
 
 
