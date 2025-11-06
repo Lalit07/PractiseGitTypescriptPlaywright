@@ -7,6 +7,7 @@ test('has title', async ({ page }) => {
   await expect(page).toHaveTitle(/Playwright/);
   console.log("Title verified");
   console.log("This is new change for git commit");
+  console.log("This is 2nd change for git commit");
 });
 
 test('get started link', async ({ page }) => {
